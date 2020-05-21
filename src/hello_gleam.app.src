@@ -17,6 +17,6 @@
   {env,[]},
   {modules, []},
 
-  {licenses, ["Apache 2.0"]},
+  {licenses, ["MIT"]},
   {links, []}
 ]}.
