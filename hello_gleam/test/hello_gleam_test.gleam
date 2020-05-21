@@ -1,7 +1,7 @@
-import hello_gleam
+import hello_gleam/web
 import gleam/should
 
 pub fn hello_world_test() {
-  hello_gleam.hello_world()
+  web.hello_world()
   |> should.equal("Hello, from hello_gleam!")
 }
