@@ -1,7 +1,6 @@
 # hello_gleam
 
-A Gleam program
-
+A simple [elli][1]-based hello world app, written in [Gleam][2].
 
 ## Quick start
 
@@ -14,16 +13,12 @@ rebar3 eunit
 
 # Run the Erlang REPL
 rebar3 shell
+
+# Build the release
+rebar3 release
 ```
 
 
-## Installation
-
-If [available in Hex](https://www.rebar3.org/docs/dependencies#section-declaring-dependencies)
-this package can be installed by adding `hello_gleam` to your `rebar.config` dependencies:
-
-```erlang
-{deps, [
-    hello_gleam
-]}.
-```
+<!-- Named Links -->
+[1]: https://github.com/elli-lib/elli
+[1]: https://github.com/gleam-lang-gleam
